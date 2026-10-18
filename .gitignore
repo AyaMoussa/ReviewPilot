@@ -1,0 +1,35 @@
+# Secrets: passwords and API keys never go to GitHub
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+data/
+
+# Editor and IDE files
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+
+# Dependencies and caches
+node_modules/
+.cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Generated output
+build/
+dist/
+coverage/
